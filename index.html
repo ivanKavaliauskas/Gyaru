@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gyaru Arcade</title>
+    <script src="lib/phaser.min.js"></script>
+    <style>
+        body { margin: 0; background-color: #111; display: flex; justify-content: center; align-items: center; height: 100vh; overflow: hidden; }
+        canvas { border: 4px solid #ff007f; box-shadow: 0 0 20px #ff007f; image-rendering: pixelated; }
+    </style>
+</head>
+<body>
+
+    <!-- Módulos de datos y funciones de soporte -->
+    <script src="js/config.js"></script>
+    <script src="js/art.js"></script>
+    <script src="js/sound.js"></script>
+    <script src="js/enemies.js"></script>
+    <script src="js/levels.js"></script>
+    
+    <!-- Lógica principal y arranque diferido del motor -->
+    <script src="js/game_init.js"></script> <!-- 🌟 Configuración inicial -->
+    <script src="js/game_loop.js"></script> <!-- 🌟 Bucle de movimiento -->
+
+</body>
+</html>
